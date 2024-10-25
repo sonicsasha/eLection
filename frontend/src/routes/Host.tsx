@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router'
 import linkIcon from '/img/icons/link.svg'
 import './Host.css'
 import Loading from '../elements/Loading'
-import { PopupContext } from '../Contexts'
+import { PopupContext } from '../context/Contexts'
 import { useTranslation } from 'react-i18next'
 import { AxiosError } from 'axios'
 

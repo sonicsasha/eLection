@@ -3,7 +3,7 @@ import { RankedElectionInfo } from '../../../types'
 import { useSprings, animated } from '@react-spring/web'
 import { useDrag } from '@use-gesture/react'
 import { clamp } from 'lodash'
-import { PopupContext } from '../../../Contexts'
+import { PopupContext } from '../../../context/Contexts'
 import { useTranslation } from 'react-i18next'
 import { move } from '../../../util/arrayUtil'
 

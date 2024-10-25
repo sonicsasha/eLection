@@ -8,7 +8,7 @@ import './CreateElectionForm.css'
 import InfoTooltip from '../../elements/Tooltip'
 import trashIcon from '/img/icons/trash.svg'
 import addIcon from '/img/icons/add.svg'
-import { PopupContext } from '../../Contexts'
+import { PopupContext } from '../../context/Contexts'
 import { useTranslation } from 'react-i18next'
 import { useNavigate } from 'react-router'
 

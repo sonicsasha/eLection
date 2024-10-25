@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react'
 import { JoinLobbyForm } from './participant/JoinLobbyForm'
 import { UserCode } from './participant/UserCode'
-import { SetParticipantViewContext } from '../Contexts'
+import { SetParticipantViewContext } from '../context/Contexts'
 import * as participantService from '../services/participantService'
 import LobbyView from './participant/LobbyView'
 import Loading from '../elements/Loading'

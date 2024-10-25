@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react'
 import { Socket } from 'socket.io-client'
 import { createQueueSocket } from '../../sockets'
-import { SetParticipantViewContext } from '../../Contexts'
+import { SetParticipantViewContext } from '../../context/Contexts'
 import { getLobbyCode, getUserCode, setAuthToken } from '../../services/participantService'
 import './UserCode.css'
 import Loading from '../../elements/Loading'

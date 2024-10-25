@@ -1,6 +1,6 @@
 import { Navigate, Route, Routes } from 'react-router'
 import { Home } from './routes/Home' 
-import {  SetParticipantViewContextProvider } from './Contexts'
+import { SetParticipantViewContextProvider } from './context/ContextProviders'
 import { lazy, Suspense, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import Loading from './elements/Loading'

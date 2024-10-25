@@ -6,7 +6,7 @@ import { ErrorMessage, StatusMessage } from '../../types'
 import { AxiosError } from 'axios'
 import { Mock } from 'vitest'
 import { useTranslation } from 'react-i18next'
-import { PopupContext } from '../../Contexts'
+import { PopupContext } from '../../context/Contexts'
 import { useNavigate } from 'react-router'
 import './Authentication.css'
 
